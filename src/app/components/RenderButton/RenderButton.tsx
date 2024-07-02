@@ -22,7 +22,7 @@ export const RenderButton: React.FC<props> = ({ name, icon, description }) => {
   };
   return (
     <button onClick={() => handleClick(name)}>
-      <div className="bg-neutral-200 dark:bg-neutral-800 flex flex-col gap-2 p-5 items-center justify-center text-center hover:opacity-80 rounded-md min-h-32 md:size-48">
+      <div className="shadow-lg bg-neutral-50 dark:bg-neutral-800 flex flex-col gap-2 p-5 items-center justify-center text-center hover:opacity-80 rounded-md min-h-32 md:size-48">
         {typeof icon !== "undefined" && (
           <Image src={icon} height={50} width={50} alt={name} />
         )}

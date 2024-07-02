@@ -6,7 +6,7 @@ export default async function Home() {
   const config = await getConfig();
   return (
     <>
-      <div className="bg-neutral-300 dark:bg-neutral-900 min-h-screen">
+      <div className="bg-neutral-100 dark:bg-neutral-900 min-h-screen">
         <div className="flex justify-between w-screen p-5">
           <p className="text-lg font-medium">ButtonBox</p>
           <ThemeSwitch />

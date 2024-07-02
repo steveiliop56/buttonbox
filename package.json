@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --experimental-build-mode compile",
+    "build:image": "docker buildx build -t buttonbox:develop .",
     "start": "next start",
+    "start:image": "docker run -t --name=buttonbox-develop -v ./data:/app/data -p 3000:3000 buttonbox:develop",
     "lint": "next lint"
   },
   "dependencies": {

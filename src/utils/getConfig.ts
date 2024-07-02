@@ -6,7 +6,7 @@ import YAML from "yaml";
 export const getConfig = async () => {
   try {
     logger.info("Getting configuration...");
-    const configRaw = await promises.readFile("config.yml", "utf-8");
+    const configRaw = await promises.readFile("data/config.yml", "utf-8");
     const configParsed = await configSchema.safeParseAsync(
       YAML.parse(configRaw),
     );

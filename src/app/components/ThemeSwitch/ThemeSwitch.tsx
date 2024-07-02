@@ -17,7 +17,7 @@ export const ThemeSwitch = () => {
       {theme === "light" ? (
         <IconMoonFilled color="#171717"></IconMoonFilled>
       ) : (
-        <IconSunFilled color="#d4d4d4"></IconSunFilled>
+        <IconSunFilled color="#f5f5f5"></IconSunFilled>
       )}
     </button>
   );
