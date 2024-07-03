@@ -1,3 +1,7 @@
+> Hello! I am happily announcing that I will not continue the development of buttonbox, that's because buttonbox was nothing more than a project to test my skills and develop a better theme for olivetin. Since people liked the theme I decided that instead of reinventig the wheel and trying to rewrite the entire olivetin app in next js (which is not possible due to some limitations) I can just write the theme people liked. You can check the "buttonbox" theme [here](https://www.olivetin.app/themes/posts/buttonbox/), hope you like it :)
+
+> If you still want to use buttonbox for some reason you can build the docker image `npm run build:image` and launch the buttonbox container with `npm run start:image`
+
 <div align="center">
   <h1>ButtonBox</h1>
   <p>Run your shell tasks with one click</p>
